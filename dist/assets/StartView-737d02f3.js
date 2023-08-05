@@ -1,0 +1,1 @@
+import{d as o,o as t,a,c as s,r as c}from"./index-91e290ed.js";const l=o({__name:"StartView",setup(r){t(()=>{window.addEventListener("keyup",n=>{console.log("key")})});function e(){c.push({name:"home"})}return(n,i)=>(a(),s("div",{class:"center-items",onClick:e},"asdasd"))}});export{l as default};
