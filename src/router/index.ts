@@ -6,8 +6,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'start',
-      component: () => import('../views/StartView.vue'),
-      meta: { transition: 'slide-left' },
+      component: () => import('../views/StartView.vue')
     },
     {
       path: '/home',
@@ -15,8 +14,7 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/HomeView.vue'),
-      meta: { transition: 'slide-left' },
+      component: () => import('../views/HomeView.vue')
     },
     {
       path: '/resume',
@@ -24,8 +22,7 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/ResumeView.vue'),
-      meta: { transition: 'slide-right' },
+      component: () => import('../views/ResumeView.vue')
     },
     {
       path: '/cover-letter',
@@ -33,8 +30,7 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/CoverLetterView.vue'),
-      meta: { transition: 'slide-left' },
+      component: () => import('../views/CoverLetterView.vue')
     }
   ]
 })

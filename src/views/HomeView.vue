@@ -38,7 +38,7 @@ function hoverOff() {
             @mouseover="hoverOn('resume')"
             @mouseleave="hoverOff"
             :to="{ name: 'resume' }"
-            class="flex justify-center content-center flex-wrap md:text-4xl text-3xl border border-slate-400 hover:text-slate-200 w-auto md:hover:scale-x-115 hover:scale-y-115 hover:text-5xl hover:border-4 resume"
+            class="flex justify-center content-center flex-wrap md:text-4xl text-3xl border border-slate-200 hover:text-slate-200 w-auto md:hover:scale-x-115 hover:scale-y-115 hover:text-5xl hover:border-4 resume"
             :class="resumeClasses"
           >
             Resume
@@ -47,7 +47,7 @@ function hoverOff() {
             @mouseover="hoverOn('cover-letter')"
             @mouseleave="hoverOff"
             :to="{ name: 'cover-letter' }"
-            class="flex justify-center content-center flex-wrap md:text-4xl text-3xl border border-slate-400 hover:text-slate-200 w-auto md:hover:scale-x-115 hover:scale-y-115 hover:text-5xl hover:border-4 cover-letter"
+            class="flex justify-center content-center flex-wrap md:text-4xl text-3xl border border-slate-200 hover:text-slate-200 w-auto md:hover:scale-x-115 hover:scale-y-115 hover:text-5xl hover:border-4 cover-letter"
             :class="coverLetterClasses"
           >
             Cover Letter
