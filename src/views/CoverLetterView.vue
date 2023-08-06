@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Header from "@/components/Header.vue";
 import Links from "@/components/Links.vue";
 import DocumentNavbar from "@/components/DocumentNavbar.vue";
 import DocumentLayout from "@/components/layouts/DocumentLayout.vue";
@@ -8,6 +9,7 @@ import DocumentLayout from "@/components/layouts/DocumentLayout.vue";
     <DocumentNavbar file-link="assets/Kamil_Socha_LaravelDev_Cover.pdf" />
     <div class="flex md:flex-row flex-column justify-evenly">
       <DocumentLayout>
+        <Header class="pt-4" />
         <div class="pb-4">
           <h4>Dear Sir/Madam,</h4>
         </div>

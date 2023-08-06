@@ -15,7 +15,7 @@ import DocumentLayout from "@/components/layouts/DocumentLayout.vue";
     <DocumentNavbar file-link="assets/Kamil_Socha_CV_EN.pdf" />
     <div class="flex md:flex-row flex-column">
       <DocumentLayout>
-        <Header />
+        <Header class="pt-4" />
         <CenteredText>
           <b>SUMMARY</b>
         </CenteredText>
