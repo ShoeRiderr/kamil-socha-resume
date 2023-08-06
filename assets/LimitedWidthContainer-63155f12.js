@@ -1,0 +1,1 @@
+import{o as _,c,i as a}from"./index-46131335.js";const r=(e,t)=>{const n=e.__vccOpts||e;for(const[o,s]of t)n[o]=s;return n};const d={},i={class:"max-width md:px-11 sm:px-6 px-2"};function p(e,t){return _(),c("div",i,[a(e.$slots,"default",{},void 0,!0)])}const m=r(d,[["render",p],["__scopeId","data-v-739e2a11"]]);export{m as L,r as _};
