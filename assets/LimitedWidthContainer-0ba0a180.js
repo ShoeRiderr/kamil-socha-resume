@@ -1,1 +1,0 @@
-import{_ as t,a as n,h as _,i as s}from"./index-3f7c725f.js";const o={},d={class:"max-width md:px-11 px-6"};function a(e,i){return n(),_("div",d,[s(e.$slots,"default",{},void 0,!0)])}const r=t(o,[["render",a],["__scopeId","data-v-56940075"]]);export{r as L};
