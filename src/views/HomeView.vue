@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { RouterLink } from "vue-router";
-import LimitedWidthContainer from "@/components/LimitedWidthContainer.vue";
+import LimitedWidthContainer from "@/components/layouts/LimitedWidthContainer.vue";
 </script>
 <template>
   <LimitedWidthContainer class="h-screen md:py-11 py-6">

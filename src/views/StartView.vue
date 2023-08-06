@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { onMounted } from "vue";
 import router from "@/router";
-import LimitedWidthContainer from "@/components/LimitedWidthContainer.vue";
+import LimitedWidthContainer from "@/components/layouts/LimitedWidthContainer.vue";
 
 onMounted(() => {
   window.addEventListener("keyup", (ev) => {
