@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import DownloadLink from "@/components/DownloadLink.vue";
 import HomeRouteLink from "@/components/HomeRouteLink.vue";
-import { defineProps } from "vue";
 
 const props = defineProps({
   fileLink: String,

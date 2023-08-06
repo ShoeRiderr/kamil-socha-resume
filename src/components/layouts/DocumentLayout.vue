@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import LimitedWidthContainer from "@/components/layouts/LimitedWidthContainer.vue";
 </script>
 <template>
