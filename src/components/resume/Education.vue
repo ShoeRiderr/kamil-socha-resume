@@ -11,7 +11,7 @@ const data = ref([
 </script>
 <template>
   <div class="pb-6">
-    <div v-for="(education, key) in data" :key="key" class="pt-1">
+    <div v-for="(education, key) in data" :key="key" class="pt-1 text-justify">
       <b>{{ education.title }}</b> {{ education.period }}
       <p><b>{{ education.school }}</b></p>
     </div>

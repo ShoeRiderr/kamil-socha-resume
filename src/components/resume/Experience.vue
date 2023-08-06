@@ -48,7 +48,7 @@ const experience = ref([
 ]);
 </script>
 <template>
-  <div class="justify-evenly pb-6">
+  <div class="justify-evenly text-justify pb-6">
     <div v-for="(item, key) in experience" :key="key" class="pb-4">
       <h5 class="pb-1">
         <b>{{ item.header.position }}</b> at <b>{{ item.header.company }}</b

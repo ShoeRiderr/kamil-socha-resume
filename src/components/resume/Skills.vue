@@ -15,7 +15,7 @@ const data = ref({
 </script>
 <template>
   <div class="pb-6">
-    <div v-for="(values, key) in data" :key="key" class="pt-1">
+    <div v-for="(values, key) in data" :key="key" class="pt-1 text-justify">
       <b class="capitalize">{{ key }}: </b> {{ values.join(", ") }}.
     </div>
   </div>

@@ -1,6 +1,6 @@
 <template>
   <div class="pb-6">
-    <div class="justify-evenly mb-4">
+    <div class="text-justify mb-4">
       A Fullstack web developer with 3 years of experience developing health, business,
       and e-commerce websites using Laravel and Vue in most cases. I am currently pursuing
       a bachelor's degree in informatics at WSB Merito in Gdańsk.

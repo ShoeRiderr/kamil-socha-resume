@@ -8,7 +8,7 @@ import DocumentLayout from "@/components/layouts/DocumentLayout.vue";
   <div class="flex flex-col content-center flex-wrap pt-4">
     <DocumentNavbar file-link="assets/Kamil_Socha_LaravelDev_Cover.pdf" />
     <div class="flex md:flex-row flex-column justify-evenly">
-      <DocumentLayout>
+      <DocumentLayout class="text-justify">
         <Header class="pt-4" />
         <div class="pb-4">
           <h4>Dear Sir/Madam,</h4>

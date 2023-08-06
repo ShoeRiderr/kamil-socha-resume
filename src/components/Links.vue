@@ -8,7 +8,7 @@ const data = ref({
 </script>
 <template>
   <div class="pb-6">
-    <div v-for="(link, key) in data" :key="key">
+    <div v-for="(link, key) in data" :key="key" class="text-justify">
       <b class="capitalize">{{ key }}: </b>
       <a :href="link" target="_blank" class="underline">{{ link }}</a>
     </div>
