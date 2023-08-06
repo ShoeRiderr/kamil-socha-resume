@@ -56,7 +56,6 @@ function copyEmail() {
 
 <style scoped>
 *[tooltip] {
-  content: "test";
   position: relative;
 }
 *[tooltip]:hover:before {
